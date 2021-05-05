@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+@font-face {
+  font-family: KingthingsBloone;
+  src: url("../fonts/KingthingsBloone.ttf");
+}
+@font-face {
+  font-family: LittleSwag;
+  src: url("../fonts/LittleSwag.ttf");
+}
+@font-face {
+  font-family: BalonkuRegular;
+  src: url("../fonts/BalonkuRegular.otf");
+}
+@font-face {
+  font-family: AlloyInk;
+  src: url("../fonts/AlloyInk.ttf");
+}
+@font-face {
+  font-family: Balloons;
+  src: url("../fonts/Balloons.ttf");
+}
+
+.gradient-background {
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url("../img/happy-pattern.jpg");
+  background-size: 100%;
+  margin: 5px;
+}
+
+.birthday-heading {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-family: Balloons;
+  font-size: 4em;
+  background-color: white;
+}
+
+.love-emoji,
+.man-emoji,
+.girl-emoji,
+.party-emoji {
+  position: absolute;
+  font-size: 2em;
+  animation-name: shake-slow;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.love-emoji {
+  bottom: 35px;
+  left: 35px;
+  animation-delay: 1s;
+}
+.man-emoji {
+  top: 35px;
+  left: 35px;
+  animation-delay: 2s;
+}
+.girl-emoji {
+  top: 35px;
+  right: 35px;
+  animation-delay: 3s;
+}
+.party-emoji {
+  bottom: 35px;
+  right: 35px;
+}
+
+.content {
+  padding: 25px;
+}
+
+.text {
+  font-family: "Itim", cursive;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255);
+}
+
+.text img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.spacer {
+  text-align: center;
+  font-size: 1.5em;
+}
